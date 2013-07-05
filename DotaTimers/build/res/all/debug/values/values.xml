@@ -1,11 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+    <color name="aqua">#00FFFF</color>
+    <color name="black">#000000</color>
     <color name="black_overlay">#66000000</color>
+    <color name="blue">#0000FF</color>
+    <color name="countdown_text">#CCCCCC</color>
+    <color name="fuchsia">#FF00FF</color>
+    <color name="gray">#808080</color>
+    <color name="green">#008000</color>
+    <color name="lime">#00FF00</color>
+    <color name="maroon">#800000</color>
+    <color name="navy">#000080</color>
+    <color name="olive">#808000</color>
+    <color name="purple">#800080</color>
+    <color name="red">#FF0000</color>
+    <color name="silver">#C0C0C0</color>
+    <color name="teal">#008080</color>
+    <color name="white">#FFFFFF</color>
+    <color name="yellow">#FFFF00</color>
 
     <declare-styleable name="ButtonBarContainerTheme">
         <attr name="buttonBarStyle" format="reference" />
         <attr name="buttonBarButtonStyle" format="reference" />
+    </declare-styleable>
+    <declare-styleable name="CountdownOverlay">
+        <attr name="fontSize" format="dimension" />
     </declare-styleable>
 
     <string name="app_name">DotaTimers</string>
@@ -39,6 +59,24 @@
         <item name="android:windowBackground">@null</item>
         <item name="buttonBarStyle">@style/ButtonBar</item>
         <item name="buttonBarButtonStyle">@style/ButtonBarButton</item>
+    </style>
+
+    <style name="game_timer">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceLarge</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_weight">0.99</item>
+    </style>
+
+    <style name="hero_portrait_buttons">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_horizontal|bottom</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:layout_marginRight">5dp</item>
+        <item name="android:background">@null</item>
     </style>
 
 </resources>
