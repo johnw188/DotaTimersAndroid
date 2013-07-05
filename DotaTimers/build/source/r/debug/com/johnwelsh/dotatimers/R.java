@@ -17,17 +17,158 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
         public static final int buttonBarStyle=0x7f010000;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int fontSize=0x7f010002;
     }
     public static final class color {
-        public static final int black_overlay=0x7f040000;
+        public static final int aqua=0x7f040000;
+        public static final int black=0x7f040001;
+        public static final int black_overlay=0x7f040002;
+        public static final int blue=0x7f040003;
+        public static final int countdown_text=0x7f040004;
+        public static final int fuchsia=0x7f040005;
+        public static final int gray=0x7f040006;
+        public static final int green=0x7f040007;
+        public static final int lime=0x7f040008;
+        public static final int maroon=0x7f040009;
+        public static final int navy=0x7f04000a;
+        public static final int olive=0x7f04000b;
+        public static final int purple=0x7f04000c;
+        public static final int red=0x7f04000d;
+        public static final int silver=0x7f04000e;
+        public static final int teal=0x7f04000f;
+        public static final int white=0x7f040010;
+        public static final int yellow=0x7f040011;
     }
     public static final class drawable {
-        public static final int ic_launcher=0x7f020000;
+        public static final int alchemist=0x7f020000;
+        public static final int ancient_apparition=0x7f020001;
+        public static final int antimage=0x7f020002;
+        public static final int axe=0x7f020003;
+        public static final int bane=0x7f020004;
+        public static final int batrider=0x7f020005;
+        public static final int beastmaster=0x7f020006;
+        public static final int bloodseeker=0x7f020007;
+        public static final int bounty_hunter=0x7f020008;
+        public static final int brewmaster=0x7f020009;
+        public static final int broodmother=0x7f02000a;
+        public static final int card_background=0x7f02000b;
+        public static final int centaur=0x7f02000c;
+        public static final int chaos_knight=0x7f02000d;
+        public static final int chen=0x7f02000e;
+        public static final int clinkz=0x7f02000f;
+        public static final int crystal_maiden=0x7f020010;
+        public static final int dark_seer=0x7f020011;
+        public static final int dazzle=0x7f020012;
+        public static final int death_prophet=0x7f020013;
+        public static final int disruptor=0x7f020014;
+        public static final int doom_bringer=0x7f020015;
+        public static final int dragon_knight=0x7f020016;
+        public static final int drow_ranger=0x7f020017;
+        public static final int earthshaker=0x7f020018;
+        public static final int enchantress=0x7f020019;
+        public static final int enigma=0x7f02001a;
+        public static final int faceless_void=0x7f02001b;
+        public static final int fortification=0x7f02001c;
+        public static final int furion=0x7f02001d;
+        public static final int greevil=0x7f02001e;
+        public static final int gyrocopter=0x7f02001f;
+        public static final int huskar=0x7f020020;
+        public static final int ic_launcher=0x7f020021;
+        public static final int image_bg=0x7f020022;
+        public static final int invoker=0x7f020023;
+        public static final int jakiro=0x7f020024;
+        public static final int juggernaut=0x7f020025;
+        public static final int keeper_of_the_light=0x7f020026;
+        public static final int kunkka=0x7f020027;
+        public static final int leshrac=0x7f020028;
+        public static final int lich=0x7f020029;
+        public static final int life_stealer=0x7f02002a;
+        public static final int lina=0x7f02002b;
+        public static final int lion=0x7f02002c;
+        public static final int lone_druid=0x7f02002d;
+        public static final int luna=0x7f02002e;
+        public static final int lycan=0x7f02002f;
+        public static final int magnataur=0x7f020030;
+        public static final int medusa=0x7f020031;
+        public static final int meepo=0x7f020032;
+        public static final int mirana=0x7f020033;
+        public static final int morphling=0x7f020034;
+        public static final int naga_siren=0x7f020035;
+        public static final int necrolyte=0x7f020036;
+        public static final int neutrals=0x7f020037;
+        public static final int nevermore=0x7f020038;
+        public static final int night_stalker=0x7f020039;
+        public static final int no_hero_selected=0x7f02003a;
+        public static final int nyx_assassin=0x7f02003b;
+        public static final int obsidian_destroyer=0x7f02003c;
+        public static final int ogre_magi=0x7f02003d;
+        public static final int omniknight=0x7f02003e;
+        public static final int phantom_assassin=0x7f02003f;
+        public static final int phantom_lancer=0x7f020040;
+        public static final int puck=0x7f020041;
+        public static final int pudge=0x7f020042;
+        public static final int pugna=0x7f020043;
+        public static final int queenofpain=0x7f020044;
+        public static final int rattletrap=0x7f020045;
+        public static final int razor=0x7f020046;
+        public static final int riki=0x7f020047;
+        public static final int roshan=0x7f020048;
+        public static final int rubick=0x7f020049;
+        public static final int sand_king=0x7f02004a;
+        public static final int shadow_demon=0x7f02004b;
+        public static final int shadow_shaman=0x7f02004c;
+        public static final int shredder=0x7f02004d;
+        public static final int silencer=0x7f02004e;
+        public static final int skeleton_king=0x7f02004f;
+        public static final int slardar=0x7f020050;
+        public static final int slark=0x7f020051;
+        public static final int sniper=0x7f020052;
+        public static final int spectre=0x7f020053;
+        public static final int spirit_bear=0x7f020054;
+        public static final int spirit_breaker=0x7f020055;
+        public static final int storm_spirit=0x7f020056;
+        public static final int sven=0x7f020057;
+        public static final int templar_assassin=0x7f020058;
+        public static final int tidehunter=0x7f020059;
+        public static final int tinker=0x7f02005a;
+        public static final int tiny=0x7f02005b;
+        public static final int tower_dire=0x7f02005c;
+        public static final int tower_radiant=0x7f02005d;
+        public static final int treant=0x7f02005e;
+        public static final int troll_warlord=0x7f02005f;
+        public static final int tusk=0x7f020060;
+        public static final int undying=0x7f020061;
+        public static final int ursa=0x7f020062;
+        public static final int vengefulspirit=0x7f020063;
+        public static final int venomancer=0x7f020064;
+        public static final int viper=0x7f020065;
+        public static final int visage=0x7f020066;
+        public static final int warlock=0x7f020067;
+        public static final int weaver=0x7f020068;
+        public static final int windrunner=0x7f020069;
+        public static final int wisp=0x7f02006a;
+        public static final int witch_doctor=0x7f02006b;
+        public static final int zeus=0x7f02006c;
     }
     public static final class id {
-        public static final int dummy_button=0x7f070002;
-        public static final int fullscreen_content=0x7f070000;
-        public static final int fullscreen_content_controls=0x7f070001;
+        public static final int fortificationButton=0x7f070000;
+        public static final int gameTimer=0x7f070001;
+        public static final int hero1=0x7f070004;
+        public static final int hero2=0x7f070005;
+        public static final int hero3=0x7f070006;
+        public static final int hero4=0x7f070007;
+        public static final int hero5=0x7f070008;
+        public static final int roshButton=0x7f070002;
+        public static final int view=0x7f070003;
     }
     public static final class layout {
         public static final int activity_main_screen=0x7f030000;
@@ -50,10 +191,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         /**  All customizations that are NOT specific to a particular API-level can go here. 
          */
         public static final int AppTheme=0x7f060001;
-        public static final int ButtonBar=0x7f060002;
-        public static final int ButtonBarButton=0x7f060003;
         public static final int FullscreenActionBarStyle=0x7f060005;
-        public static final int FullscreenTheme=0x7f060004;
+        public static final int FullscreenTheme=0x7f060006;
+        public static final int game_timer=0x7f060002;
+        public static final int hero_portrait_buttons=0x7f060003;
+        public static final int image_button=0x7f060004;
     }
     public static final class styleable {
         /** Attributes that can be used with a ButtonBarContainerTheme.
@@ -91,5 +233,34 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           @attr name android:buttonBarStyle
         */
         public static final int ButtonBarContainerTheme_buttonBarStyle = 0;
+        /** Attributes that can be used with a CountdownOverlay.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #CountdownOverlay_fontSize com.johnwelsh.dotatimers:fontSize}</code></td><td></td></tr>
+           </table>
+           @see #CountdownOverlay_fontSize
+         */
+        public static final int[] CountdownOverlay = {
+            0x7f010002
+        };
+        /**
+          <p>This symbol is the offset where the {@link com.johnwelsh.dotatimers.R.attr#fontSize}
+          attribute's value can be found in the {@link #CountdownOverlay} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android:fontSize
+        */
+        public static final int CountdownOverlay_fontSize = 0;
     };
 }

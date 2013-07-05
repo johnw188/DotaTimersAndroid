@@ -44,7 +44,8 @@ public class CountdownOverlay extends View {
         int textColor = getResources().getColor(R.color.countdown_text);
         textPaint.setColor(textColor);
         textPaint.setTextAlign(Paint.Align.CENTER);
-
     }
+
+
 
 }

@@ -8,16 +8,17 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical|left"
-            android:layout_weight=".5">
+            android:layout_weight="0">
 
-        <ImageButton
+        <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/fortificationButton"
-                android:src="@drawable/default"
-                android:background="@null"
+                android:src="@drawable/no_hero_selected"
                 android:layout_margin="5dp"
-                android:layout_gravity="center_vertical"/>
+                android:layout_gravity="center_vertical"
+                android:cropToPadding="false"
+                android:background="@null"/>
 
         <TextView
                 android:text="00:00"
@@ -25,9 +26,10 @@
                 style="@style/game_timer"
                 android:layout_height="wrap_content"
                 android:textSize="60dp"
-                android:layout_gravity="center_vertical"/>
+                android:layout_gravity="center_vertical"
+                android:layout_margin="5dp"/>
 
-        <ImageButton
+        <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/roshButton"
@@ -44,55 +46,55 @@
             class="com.johnwelsh.dotatimers.views.TimelineView"
             android:id="@+id/view"
             android:layout_weight="1"
-            android:layout_marginTop="5dp"
-            android:layout_marginBottom="5dp"/>
+            />
 
     <LinearLayout
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_weight="0"
-            android:layout_marginBottom="5dp">
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp">
 
-        <ImageButton
+        <ImageView
                 android:id="@+id/hero1"
-                android:src="@drawable/default"
+                android:src="@drawable/no_hero_selected"
                 style="@style/hero_portrait_buttons"/>
 
-        <ImageButton
+        <ImageView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:id="@+id/hero2"
                 android:layout_weight="1"
                 android:layout_gravity="center_horizontal|bottom"
-                android:src="@drawable/default"
+                android:src="@drawable/no_hero_selected"
                 android:focusable="false"
                 style="@style/hero_portrait_buttons"/>
 
-        <ImageButton
+        <ImageView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:id="@+id/hero3"
                 android:layout_weight="1"
                 android:layout_gravity="center_horizontal|bottom"
-                android:src="@drawable/default"
+                android:src="@drawable/no_hero_selected"
                 style="@style/hero_portrait_buttons"/>
 
-        <ImageButton
+        <ImageView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:id="@+id/hero4"
                 android:layout_weight="1"
                 android:layout_gravity="center_horizontal|bottom"
-                android:src="@drawable/default"
+                android:src="@drawable/no_hero_selected"
                 style="@style/hero_portrait_buttons"/>
 
-        <ImageButton
+        <ImageView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:id="@+id/hero5"
                 android:layout_weight="1"
                 android:layout_gravity="center_horizontal|bottom"
-                android:src="@drawable/default"
+                android:src="@drawable/no_hero_selected"
                 style="@style/hero_portrait_buttons"/>
     </LinearLayout>
 </LinearLayout>

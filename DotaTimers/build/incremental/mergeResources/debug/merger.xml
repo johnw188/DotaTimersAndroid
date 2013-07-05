@@ -4,14 +4,564 @@
     <dataSet config="main" >
         <source path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res" >
             <file
+                name="alchemist"
+                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/alchemist.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="ancient_apparition"
+                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/ancient_apparition.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="antimage"
+                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/antimage.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="axe"
+                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/axe.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="bane"
+                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/bane.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="batrider"
+                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/batrider.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="beastmaster"
+                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/beastmaster.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="bloodseeker"
+                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/bloodseeker.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="bounty_hunter"
+                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/bounty_hunter.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="brewmaster"
+                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/brewmaster.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="broodmother"
+                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/broodmother.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="centaur"
+                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/centaur.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="chaos_knight"
+                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/chaos_knight.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="chen"
+                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/chen.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="clinkz"
+                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/clinkz.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="crystal_maiden"
+                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/crystal_maiden.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="dark_seer"
+                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/dark_seer.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="dazzle"
+                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/dazzle.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="death_prophet"
+                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/death_prophet.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="disruptor"
+                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/disruptor.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="doom_bringer"
+                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/doom_bringer.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="dragon_knight"
+                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/dragon_knight.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="drow_ranger"
+                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/drow_ranger.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="earthshaker"
+                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/earthshaker.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="enchantress"
+                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/enchantress.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="enigma"
+                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/enigma.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="faceless_void"
+                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/faceless_void.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="fortification"
+                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/fortification.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="furion"
+                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/furion.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="greevil"
+                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/greevil.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="gyrocopter"
+                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/gyrocopter.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="huskar"
+                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/huskar.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="image_bg"
+                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/image_bg.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="invoker"
+                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/invoker.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="jakiro"
+                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/jakiro.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="juggernaut"
+                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/juggernaut.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="keeper_of_the_light"
+                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/keeper_of_the_light.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="kunkka"
+                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/kunkka.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="leshrac"
+                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/leshrac.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="lich"
+                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/lich.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="life_stealer"
+                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/life_stealer.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="lina"
+                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/lina.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="lion"
+                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/lion.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="lone_druid"
+                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/lone_druid.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="luna"
+                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/luna.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="lycan"
+                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/lycan.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="magnataur"
+                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/magnataur.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="medusa"
+                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/medusa.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="meepo"
+                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/meepo.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="mirana"
+                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/mirana.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="morphling"
+                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/morphling.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="naga_siren"
+                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/naga_siren.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="necrolyte"
+                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/necrolyte.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="neutrals"
+                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/neutrals.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="nevermore"
+                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/nevermore.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="night_stalker"
+                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/night_stalker.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="no_hero_selected"
+                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/no_hero_selected.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="nyx_assassin"
+                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/nyx_assassin.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="obsidian_destroyer"
+                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/obsidian_destroyer.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="ogre_magi"
+                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/ogre_magi.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="omniknight"
+                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/omniknight.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="phantom_assassin"
+                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/phantom_assassin.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="phantom_lancer"
+                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/phantom_lancer.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="puck"
+                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/puck.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="pudge"
+                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/pudge.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="pugna"
+                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/pugna.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="queenofpain"
+                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/queenofpain.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="rattletrap"
+                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/rattletrap.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="razor"
+                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/razor.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="riki"
+                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/riki.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="roshan"
+                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/roshan.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="rubick"
+                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/rubick.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="sand_king"
+                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/sand_king.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="shadow_demon"
+                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/shadow_demon.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="shadow_shaman"
+                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/shadow_shaman.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="shredder"
+                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/shredder.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="silencer"
+                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/silencer.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="skeleton_king"
+                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/skeleton_king.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="slardar"
+                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/slardar.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="slark"
+                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/slark.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="sniper"
+                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/sniper.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="spectre"
+                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/spectre.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="spirit_bear"
+                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/spirit_bear.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="spirit_breaker"
+                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/spirit_breaker.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="storm_spirit"
+                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/storm_spirit.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="sven"
+                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/sven.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="templar_assassin"
+                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/templar_assassin.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="tidehunter"
+                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/tidehunter.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="tinker"
+                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/tinker.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="tiny"
+                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/tiny.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="tower_dire"
+                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/tower_dire.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="tower_radiant"
+                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/tower_radiant.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="treant"
+                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/treant.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="troll_warlord"
+                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/troll_warlord.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="tusk"
+                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/tusk.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="undying"
+                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/undying.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="ursa"
+                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/ursa.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="vengefulspirit"
+                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/vengefulspirit.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="venomancer"
+                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/venomancer.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="viper"
+                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/viper.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="visage"
+                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/visage.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="warlock"
+                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/warlock.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="weaver"
+                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/weaver.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="windrunner"
+                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/windrunner.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="wisp"
+                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/wisp.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="witch_doctor"
+                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/witch_doctor.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="zeus"
+                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/zeus.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="card_background"
+                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable-hdpi/card_background.9.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
                 name="ic_launcher"
                 path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable-hdpi/ic_launcher.png"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
+                name="card_background"
+                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable-mdpi/card_background.9.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
                 name="ic_launcher"
                 path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable-mdpi/ic_launcher.png"
                 qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="card_background"
+                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable-xhdpi/card_background.9.png"
+                qualifiers="xhdpi"
                 type="drawable" />
             <file
                 name="ic_launcher"
@@ -70,9 +620,9 @@
                 </color>
                 <color name="fuchsia" >#FF00FF
                 </color>
-                <color name="maroon" >#800000
-                </color>
                 <color name="olive" >#808000
+                </color>
+                <color name="maroon" >#800000
                 </color>
                 <color name="white" >#FFFFFF
                 </color>
@@ -99,24 +649,6 @@
                 path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/values/styles.xml"
                 qualifiers="" >
 
-                <style name="ButtonBar" >
-                    <item name="android:paddingLeft">
-2dp
-                    </item>
-                    <item name="android:paddingTop">
-5dp
-                    </item>
-                    <item name="android:paddingRight">
-2dp
-                    </item>
-                    <item name="android:paddingBottom">
-0dp
-                    </item>
-                    <item name="android:background">
-@android:drawable/bottom_bar
-                    </item>
-                </style>
-
                 <style
                     name="AppBaseTheme"
                     parent="android:Theme.Light" >
@@ -128,26 +660,13 @@
                     -->
                 </style>
 
-                <style
-                    name="FullscreenTheme"
-                    parent="android:Theme.NoTitleBar" >
-                    <item name="android:windowContentOverlay">
-@null
-                    </item>
-                    <item name="android:windowBackground">
-@null
-                    </item>
-                    <item name="buttonBarStyle">
-@style/ButtonBar
-                    </item>
-                    <item name="buttonBarButtonStyle">
-@style/ButtonBarButton
-                    </item>
+                <style name="image_button" >
                 </style>
 
-                <style name="ButtonBarButton" />
-
                 <style name="game_timer" >
+                    <item name="android:background">
+@drawable/card_background
+                    </item>
                     <item name="android:layout_width">
 wrap_content
                     </item>
@@ -246,536 +765,6 @@ true
                     <!-- API 14 theme customizations can go here. -->
                 </style>
             </file>
-            <file
-                name="shadow_demon"
-                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/shadow_demon.png"
-                qualifiers=""
-                type="drawable" />
-            <file
-                name="undying"
-                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/undying.png"
-                qualifiers=""
-                type="drawable" />
-            <file
-                name="queenofpain"
-                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/queenofpain.png"
-                qualifiers=""
-                type="drawable" />
-            <file
-                name="riki"
-                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/riki.png"
-                qualifiers=""
-                type="drawable" />
-            <file
-                name="weaver"
-                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/weaver.png"
-                qualifiers=""
-                type="drawable" />
-            <file
-                name="death_prophet"
-                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/death_prophet.png"
-                qualifiers=""
-                type="drawable" />
-            <file
-                name="invoker"
-                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/invoker.png"
-                qualifiers=""
-                type="drawable" />
-            <file
-                name="troll_warlord"
-                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/troll_warlord.png"
-                qualifiers=""
-                type="drawable" />
-            <file
-                name="viper"
-                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/viper.png"
-                qualifiers=""
-                type="drawable" />
-            <file
-                name="clinkz"
-                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/clinkz.png"
-                qualifiers=""
-                type="drawable" />
-            <file
-                name="lion"
-                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/lion.png"
-                qualifiers=""
-                type="drawable" />
-            <file
-                name="templar_assassin"
-                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/templar_assassin.png"
-                qualifiers=""
-                type="drawable" />
-            <file
-                name="dragon_knight"
-                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/dragon_knight.png"
-                qualifiers=""
-                type="drawable" />
-            <file
-                name="morphling"
-                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/morphling.png"
-                qualifiers=""
-                type="drawable" />
-            <file
-                name="juggernaut"
-                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/juggernaut.png"
-                qualifiers=""
-                type="drawable" />
-            <file
-                name="doom_bringer"
-                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/doom_bringer.png"
-                qualifiers=""
-                type="drawable" />
-            <file
-                name="fortification"
-                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/fortification.png"
-                qualifiers=""
-                type="drawable" />
-            <file
-                name="vengefulspirit"
-                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/vengefulspirit.png"
-                qualifiers=""
-                type="drawable" />
-            <file
-                name="chen"
-                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/chen.png"
-                qualifiers=""
-                type="drawable" />
-            <file
-                name="antimage"
-                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/antimage.png"
-                qualifiers=""
-                type="drawable" />
-            <file
-                name="beastmaster"
-                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/beastmaster.png"
-                qualifiers=""
-                type="drawable" />
-            <file
-                name="storm_spirit"
-                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/storm_spirit.png"
-                qualifiers=""
-                type="drawable" />
-            <file
-                name="venomancer"
-                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/venomancer.png"
-                qualifiers=""
-                type="drawable" />
-            <file
-                name="nevermore"
-                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/nevermore.png"
-                qualifiers=""
-                type="drawable" />
-            <file
-                name="meepo"
-                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/meepo.png"
-                qualifiers=""
-                type="drawable" />
-            <file
-                name="rattletrap"
-                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/rattletrap.png"
-                qualifiers=""
-                type="drawable" />
-            <file
-                name="dazzle"
-                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/dazzle.png"
-                qualifiers=""
-                type="drawable" />
-            <file
-                name="gyrocopter"
-                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/gyrocopter.png"
-                qualifiers=""
-                type="drawable" />
-            <file
-                name="tidehunter"
-                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/tidehunter.png"
-                qualifiers=""
-                type="drawable" />
-            <file
-                name="phantom_assassin"
-                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/phantom_assassin.png"
-                qualifiers=""
-                type="drawable" />
-            <file
-                name="crystal_maiden"
-                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/crystal_maiden.png"
-                qualifiers=""
-                type="drawable" />
-            <file
-                name="drow_ranger"
-                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/drow_ranger.png"
-                qualifiers=""
-                type="drawable" />
-            <file
-                name="keeper_of_the_light"
-                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/keeper_of_the_light.png"
-                qualifiers=""
-                type="drawable" />
-            <file
-                name="lich"
-                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/lich.png"
-                qualifiers=""
-                type="drawable" />
-            <file
-                name="axe"
-                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/axe.png"
-                qualifiers=""
-                type="drawable" />
-            <file
-                name="lina"
-                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/lina.png"
-                qualifiers=""
-                type="drawable" />
-            <file
-                name="nyx_assassin"
-                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/nyx_assassin.png"
-                qualifiers=""
-                type="drawable" />
-            <file
-                name="enchantress"
-                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/enchantress.png"
-                qualifiers=""
-                type="drawable" />
-            <file
-                name="spirit_breaker"
-                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/spirit_breaker.png"
-                qualifiers=""
-                type="drawable" />
-            <file
-                name="obsidian_destroyer"
-                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/obsidian_destroyer.png"
-                qualifiers=""
-                type="drawable" />
-            <file
-                name="sven"
-                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/sven.png"
-                qualifiers=""
-                type="drawable" />
-            <file
-                name="treant"
-                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/treant.png"
-                qualifiers=""
-                type="drawable" />
-            <file
-                name="wisp"
-                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/wisp.png"
-                qualifiers=""
-                type="drawable" />
-            <file
-                name="greevil"
-                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/greevil.png"
-                qualifiers=""
-                type="drawable" />
-            <file
-                name="tower_dire"
-                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/tower_dire.png"
-                qualifiers=""
-                type="drawable" />
-            <file
-                name="omniknight"
-                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/omniknight.png"
-                qualifiers=""
-                type="drawable" />
-            <file
-                name="necrolyte"
-                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/necrolyte.png"
-                qualifiers=""
-                type="drawable" />
-            <file
-                name="life_stealer"
-                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/life_stealer.png"
-                qualifiers=""
-                type="drawable" />
-            <file
-                name="slark"
-                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/slark.png"
-                qualifiers=""
-                type="drawable" />
-            <file
-                name="witch_doctor"
-                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/witch_doctor.png"
-                qualifiers=""
-                type="drawable" />
-            <file
-                name="ancient_apparition"
-                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/ancient_apparition.png"
-                qualifiers=""
-                type="drawable" />
-            <file
-                name="visage"
-                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/visage.png"
-                qualifiers=""
-                type="drawable" />
-            <file
-                name="chaos_knight"
-                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/chaos_knight.png"
-                qualifiers=""
-                type="drawable" />
-            <file
-                name="pugna"
-                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/pugna.png"
-                qualifiers=""
-                type="drawable" />
-            <file
-                name="warlock"
-                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/warlock.png"
-                qualifiers=""
-                type="drawable" />
-            <file
-                name="luna"
-                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/luna.png"
-                qualifiers=""
-                type="drawable" />
-            <file
-                name="mirana"
-                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/mirana.png"
-                qualifiers=""
-                type="drawable" />
-            <file
-                name="bloodseeker"
-                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/bloodseeker.png"
-                qualifiers=""
-                type="drawable" />
-            <file
-                name="phantom_lancer"
-                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/phantom_lancer.png"
-                qualifiers=""
-                type="drawable" />
-            <file
-                name="tusk"
-                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/tusk.png"
-                qualifiers=""
-                type="drawable" />
-            <file
-                name="spirit_bear"
-                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/spirit_bear.png"
-                qualifiers=""
-                type="drawable" />
-            <file
-                name="jakiro"
-                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/jakiro.png"
-                qualifiers=""
-                type="drawable" />
-            <file
-                name="brewmaster"
-                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/brewmaster.png"
-                qualifiers=""
-                type="drawable" />
-            <file
-                name="batrider"
-                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/batrider.png"
-                qualifiers=""
-                type="drawable" />
-            <file
-                name="furion"
-                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/furion.png"
-                qualifiers=""
-                type="drawable" />
-            <file
-                name="sniper"
-                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/sniper.png"
-                qualifiers=""
-                type="drawable" />
-            <file
-                name="slardar"
-                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/slardar.png"
-                qualifiers=""
-                type="drawable" />
-            <file
-                name="roshan"
-                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/roshan.png"
-                qualifiers=""
-                type="drawable" />
-            <file
-                name="tiny"
-                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/tiny.png"
-                qualifiers=""
-                type="drawable" />
-            <file
-                name="kunkka"
-                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/kunkka.png"
-                qualifiers=""
-                type="drawable" />
-            <file
-                name="default"
-                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/default.png"
-                qualifiers=""
-                type="drawable" />
-            <file
-                name="broodmother"
-                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/broodmother.png"
-                qualifiers=""
-                type="drawable" />
-            <file
-                name="faceless_void"
-                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/faceless_void.png"
-                qualifiers=""
-                type="drawable" />
-            <file
-                name="dark_seer"
-                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/dark_seer.png"
-                qualifiers=""
-                type="drawable" />
-            <file
-                name="spectre"
-                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/spectre.png"
-                qualifiers=""
-                type="drawable" />
-            <file
-                name="naga_siren"
-                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/naga_siren.png"
-                qualifiers=""
-                type="drawable" />
-            <file
-                name="lone_druid"
-                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/lone_druid.png"
-                qualifiers=""
-                type="drawable" />
-            <file
-                name="shredder"
-                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/shredder.png"
-                qualifiers=""
-                type="drawable" />
-            <file
-                name="lycan"
-                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/lycan.png"
-                qualifiers=""
-                type="drawable" />
-            <file
-                name="ursa"
-                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/ursa.png"
-                qualifiers=""
-                type="drawable" />
-            <file
-                name="disruptor"
-                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/disruptor.png"
-                qualifiers=""
-                type="drawable" />
-            <file
-                name="alchemist"
-                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/alchemist.png"
-                qualifiers=""
-                type="drawable" />
-            <file
-                name="enigma"
-                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/enigma.png"
-                qualifiers=""
-                type="drawable" />
-            <file
-                name="night_stalker"
-                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/night_stalker.png"
-                qualifiers=""
-                type="drawable" />
-            <file
-                name="huskar"
-                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/huskar.png"
-                qualifiers=""
-                type="drawable" />
-            <file
-                name="windrunner"
-                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/windrunner.png"
-                qualifiers=""
-                type="drawable" />
-            <file
-                name="centaur"
-                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/centaur.png"
-                qualifiers=""
-                type="drawable" />
-            <file
-                name="skeleton_king"
-                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/skeleton_king.png"
-                qualifiers=""
-                type="drawable" />
-            <file
-                name="bane"
-                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/bane.png"
-                qualifiers=""
-                type="drawable" />
-            <file
-                name="silencer"
-                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/silencer.png"
-                qualifiers=""
-                type="drawable" />
-            <file
-                name="leshrac"
-                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/leshrac.png"
-                qualifiers=""
-                type="drawable" />
-            <file
-                name="shadow_shaman"
-                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/shadow_shaman.png"
-                qualifiers=""
-                type="drawable" />
-            <file
-                name="earthshaker"
-                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/earthshaker.png"
-                qualifiers=""
-                type="drawable" />
-            <file
-                name="pudge"
-                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/pudge.png"
-                qualifiers=""
-                type="drawable" />
-            <file
-                name="sand_king"
-                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/sand_king.png"
-                qualifiers=""
-                type="drawable" />
-            <file
-                name="bounty_hunter"
-                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/bounty_hunter.png"
-                qualifiers=""
-                type="drawable" />
-            <file
-                name="zeus"
-                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/zeus.png"
-                qualifiers=""
-                type="drawable" />
-            <file
-                name="razor"
-                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/razor.png"
-                qualifiers=""
-                type="drawable" />
-            <file
-                name="tower_radiant"
-                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/tower_radiant.png"
-                qualifiers=""
-                type="drawable" />
-            <file
-                name="ogre_magi"
-                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/ogre_magi.png"
-                qualifiers=""
-                type="drawable" />
-            <file
-                name="magnataur"
-                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/magnataur.png"
-                qualifiers=""
-                type="drawable" />
-            <file
-                name="medusa"
-                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/medusa.png"
-                qualifiers=""
-                type="drawable" />
-            <file
-                name="tinker"
-                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/tinker.png"
-                qualifiers=""
-                type="drawable" />
-            <file
-                name="puck"
-                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/puck.png"
-                qualifiers=""
-                type="drawable" />
-            <file
-                name="rubick"
-                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/rubick.png"
-                qualifiers=""
-                type="drawable" />
-            <file
-                name="neutrals"
-                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/drawable/neutrals.png"
-                qualifiers=""
-                type="drawable" />
         </source>
         <source path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/build/res/rs/debug" />
     </dataSet>
