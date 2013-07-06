@@ -21,19 +21,20 @@
                 android:background="@null"/>
 
         <TextView
-                android:text="00:00"
-                android:id="@+id/gameTimer"
-                style="@style/game_timer"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                style="@style/game_timer"
                 android:textSize="60dp"
                 android:layout_gravity="center_vertical"
-                android:layout_margin="5dp"/>
+                android:layout_margin="5dp"
+                android:id="@+id/gameTimer"
+                android:text="Start"/>
 
-        <ImageView
+        <view
+                class="com.johnwelsh.dotatimers.views.timerwidgets.RoshTimer"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/roshButton"
-                android:src="@drawable/roshan"
                 android:background="@null"
                 android:layout_margin="5dp"
                 android:layout_gravity="center_vertical"/>
@@ -43,7 +44,7 @@
     <view
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            class="com.johnwelsh.dotatimers.views.TimelineView"
+            class="com.johnwelsh.dotatimers.views.timeline.TimelineView"
             android:id="@+id/view"
             android:layout_weight="1"
             />
@@ -52,49 +53,41 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_weight="0"
-            android:layout_marginBottom="5dp"
-            android:layout_marginTop="5dp">
+            >
 
-        <ImageView
-                android:id="@+id/hero1"
-                android:src="@drawable/no_hero_selected"
-                style="@style/hero_portrait_buttons"/>
-
-        <ImageView
-                android:layout_width="0dp"
+        <view
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/hero2"
-                android:layout_weight="1"
-                android:layout_gravity="center_horizontal|bottom"
-                android:src="@drawable/no_hero_selected"
-                android:focusable="false"
-                style="@style/hero_portrait_buttons"/>
+                class="com.johnwelsh.dotatimers.views.timerwidgets.HeroTimer"
+                style="@style/hero_portrait_buttons"
+                android:id="@+id/hero1"/>
 
-        <ImageView
-                android:layout_width="0dp"
+        <view
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/hero3"
-                android:layout_weight="1"
-                android:layout_gravity="center_horizontal|bottom"
-                android:src="@drawable/no_hero_selected"
-                style="@style/hero_portrait_buttons"/>
+                class="com.johnwelsh.dotatimers.views.timerwidgets.HeroTimer"
+                style="@style/hero_portrait_buttons"
+                android:id="@+id/hero2"/>
 
-        <ImageView
-                android:layout_width="0dp"
+        <view
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/hero4"
-                android:layout_weight="1"
-                android:layout_gravity="center_horizontal|bottom"
-                android:src="@drawable/no_hero_selected"
-                style="@style/hero_portrait_buttons"/>
+                class="com.johnwelsh.dotatimers.views.timerwidgets.HeroTimer"
+                style="@style/hero_portrait_buttons"
+                android:id="@+id/hero3"/>
 
-        <ImageView
-                android:layout_width="0dp"
+        <view
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/hero5"
-                android:layout_weight="1"
-                android:layout_gravity="center_horizontal|bottom"
-                android:src="@drawable/no_hero_selected"
-                style="@style/hero_portrait_buttons"/>
+                class="com.johnwelsh.dotatimers.views.timerwidgets.HeroTimer"
+                style="@style/hero_portrait_buttons"
+                android:id="@+id/hero4"/>
+
+        <view
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                class="com.johnwelsh.dotatimers.views.timerwidgets.HeroTimer"
+                style="@style/hero_portrait_buttons"
+                android:id="@+id/hero5"/>
     </LinearLayout>
 </LinearLayout>

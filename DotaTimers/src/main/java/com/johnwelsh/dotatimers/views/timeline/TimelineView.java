@@ -1,4 +1,4 @@
-package com.johnwelsh.dotatimers.views;
+package com.johnwelsh.dotatimers.views.timeline;
 
 import android.content.Context;
 import android.util.AttributeSet;

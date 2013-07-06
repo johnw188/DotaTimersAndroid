@@ -160,6 +160,7 @@ containing a value of this type.
         public static final int zeus=0x7f02006c;
     }
     public static final class id {
+        public static final int countdownText=0x7f07000a;
         public static final int fortificationButton=0x7f070000;
         public static final int gameTimer=0x7f070001;
         public static final int hero1=0x7f070004;
@@ -168,10 +169,12 @@ containing a value of this type.
         public static final int hero4=0x7f070007;
         public static final int hero5=0x7f070008;
         public static final int roshButton=0x7f070002;
+        public static final int timerImage=0x7f070009;
         public static final int view=0x7f070003;
     }
     public static final class layout {
         public static final int activity_main_screen=0x7f030000;
+        public static final int timer_view=0x7f030001;
     }
     public static final class string {
         public static final int app_name=0x7f050000;
