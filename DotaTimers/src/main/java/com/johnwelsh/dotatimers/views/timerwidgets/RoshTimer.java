@@ -2,7 +2,6 @@ package com.johnwelsh.dotatimers.views.timerwidgets;
 
 import android.content.Context;
 import android.util.AttributeSet;
-import android.view.View;
 
 import com.johnwelsh.dotatimers.R;
 
@@ -13,12 +12,11 @@ public class RoshTimer extends TimerView {
     public RoshTimer(Context context, AttributeSet attrs) {
         super(context, attrs);
         setBaseImageFromID(R.drawable.roshan);
-        setOnClickListener(new OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                startRoshTimer();
-            }
-        });
+    }
+
+    @Override
+    public void onTimerClicked() {
+        startRoshTimer();
     }
 
     private boolean timingAegis = false;

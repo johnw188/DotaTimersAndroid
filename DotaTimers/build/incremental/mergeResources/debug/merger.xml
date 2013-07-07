@@ -623,11 +623,11 @@
                 </color>
                 <color name="yellow" >#FFFF00
                 </color>
-                <color name="olive" >#808000
-                </color>
                 <color name="maroon" >#800000
                 </color>
                 <color name="fuchsia" >#FF00FF
+                </color>
+                <color name="olive" >#808000
                 </color>
                 <color name="white" >#FFFFFF
                 </color>
@@ -643,9 +643,13 @@
             <file
                 path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/values/strings.xml"
                 qualifiers="" >
+                <string name="action_settings" >Settings
+                </string>
                 <string name="app_name" >DotaTimers
                 </string>
                 <string name="dummy_content" >DUMMY\nCONTENT
+                </string>
+                <string name="title_activity_hero_selection" >Hero Selection
                 </string>
                 <string name="dummy_button" >Dummy Button
                 </string>
@@ -703,10 +707,10 @@ center_horizontal|bottom
 1
                     </item>
                     <item name="android:layout_marginLeft">
-5dp
+4dp
                     </item>
                     <item name="android:layout_marginRight">
-5dp
+4dp
                     </item>
                     <item name="android:background">
 @null
@@ -770,6 +774,33 @@ true
                     <!-- API 14 theme customizations can go here. -->
                 </style>
             </file>
+            <file
+                name="activity_hero_selection"
+                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/layout/activity_hero_selection.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/values-sw600dp/dimens.xml"
+                qualifiers="sw600dp" />
+            <file
+                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/values/dimens.xml"
+                qualifiers="" >
+                <dimen name="activity_horizontal_margin" >16dp
+                </dimen>
+                <dimen name="activity_vertical_margin" >16dp
+                </dimen>
+            </file>
+            <file
+                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/values-sw720dp-land/dimens.xml"
+                qualifiers="sw720dp-land" >
+                <dimen name="activity_horizontal_margin" >128dp
+                </dimen>
+            </file>
+            <file
+                name="hero_selection"
+                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/menu/hero_selection.xml"
+                qualifiers=""
+                type="menu" />
         </source>
         <source path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/build/res/rs/debug" />
     </dataSet>

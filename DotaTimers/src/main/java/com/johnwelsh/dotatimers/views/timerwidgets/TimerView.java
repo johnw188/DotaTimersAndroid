@@ -3,6 +3,7 @@ package com.johnwelsh.dotatimers.views.timerwidgets;
 import android.content.Context;
 import android.util.AttributeSet;
 import android.view.LayoutInflater;
+import android.view.View;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
@@ -66,6 +67,12 @@ public abstract class TimerView extends RelativeLayout implements DotaTimerWidge
         inflater.inflate(R.layout.timer_view, this, true);
         baseImage = (ImageView) findViewById(R.id.timerImage);
         timeLabel = (TextView) findViewById(R.id.countdownText);
+        setOnClickListener(new OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                onTimerClicked();
+            }
+        });
     }
 
     public void setBaseImageFromID(int id) {
@@ -101,5 +108,9 @@ public abstract class TimerView extends RelativeLayout implements DotaTimerWidge
 
     protected void onTimerFinished() {
         hideTimerText();
+    }
+
+    public void onTimerClicked() {
+
     }
 }

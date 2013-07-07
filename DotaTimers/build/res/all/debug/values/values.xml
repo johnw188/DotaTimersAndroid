@@ -28,9 +28,12 @@
         <attr name="fontSize" format="dimension" />
     </declare-styleable>
 
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <string name="action_settings">Settings</string>
     <string name="app_name">DotaTimers</string>
-    <string name="dummy_button">Dummy Button</string>
-    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_hero_selection">Hero Selection</string>
 
     <style name="AppBaseTheme" parent="android:Theme.Light">
         <!--
@@ -58,8 +61,8 @@
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_gravity">center_horizontal|bottom</item>
         <item name="android:layout_weight">1</item>
-        <item name="android:layout_marginLeft">5dp</item>
-        <item name="android:layout_marginRight">5dp</item>
+        <item name="android:layout_marginLeft">4dp</item>
+        <item name="android:layout_marginRight">4dp</item>
         <item name="android:background">@null</item>
     </style>
 

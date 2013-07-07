@@ -24,5 +24,9 @@ public class HeroIconMap {
     public static void initMap() {
         heroIcons = new HashMap<String, Integer>();
         heroIcons.put("alchemist", R.drawable.alchemist);
+        heroIcons.put("ancient_apparition", R.drawable.ancient_apparition);
+        heroIcons.put("antimage", R.drawable.antimage);
+        heroIcons.put("axe", R.drawable.axe);
+        heroIcons.put("bane", R.drawable.bane);
     }
 }
