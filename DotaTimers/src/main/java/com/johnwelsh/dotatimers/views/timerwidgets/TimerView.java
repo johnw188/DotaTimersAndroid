@@ -20,7 +20,7 @@ import java.util.Date;
 public abstract class TimerView extends RelativeLayout implements DotaTimerWidget {
     private ImageView baseImage;
     private TextView timeLabel;
-    private TimerWidgetManager manager;
+    protected TimerWidgetManager manager;
     SimpleDateFormat formatter = new SimpleDateFormat("m':'ss");
 
     private boolean currentlyTiming = false;
@@ -43,6 +43,10 @@ public abstract class TimerView extends RelativeLayout implements DotaTimerWidge
                 setTimerTextToSeconds(newTimerValue);
             }
         }
+    }
+
+    public void startTiming(int secondsToTime, long systemClockAtStartOfTiming) {
+        startTiming(secondsToTime, manager.getGameTimeForSystemClockTime(systemClockAtStartOfTiming));
     }
 
     public void startTiming(int secondsToTime) {

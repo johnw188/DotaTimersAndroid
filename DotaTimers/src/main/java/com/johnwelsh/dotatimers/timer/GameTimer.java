@@ -1,7 +1,6 @@
 package com.johnwelsh.dotatimers.timer;
 
 import android.os.Handler;
-import android.util.Log;
 
 /**
  * Created by john.welsh on 7/5/13.
@@ -22,6 +21,10 @@ public class GameTimer {
     private boolean shouldPauseTimer = false;
     public void pauseTimer() {
         shouldPauseTimer = true;
+    }
+
+    public int gameTimeForSystemClockTime(long systemClockTime) {
+        return (int) (((systemClockTime - startSystemTime + initialTime) + 500) / 1000);
     }
 
     public void startTimer(long initialTimeMS)

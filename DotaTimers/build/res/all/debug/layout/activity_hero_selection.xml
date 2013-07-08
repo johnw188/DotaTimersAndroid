@@ -26,5 +26,6 @@
             android:layout_alignParentLeft="true"
             android:layout_alignParentBottom="true"
             android:layout_below="@+id/heroFilter"
-            android:choiceMode="singleChoice"/>
+            android:choiceMode="singleChoice"
+            />
 </RelativeLayout>

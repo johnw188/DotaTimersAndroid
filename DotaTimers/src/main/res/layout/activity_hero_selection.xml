@@ -27,6 +27,5 @@
             android:layout_alignParentBottom="true"
             android:layout_below="@+id/heroFilter"
             android:choiceMode="singleChoice"
-            android:divider="#FFCC00"
-            android:dividerHeight="4dp"/>
+            />
 </RelativeLayout>

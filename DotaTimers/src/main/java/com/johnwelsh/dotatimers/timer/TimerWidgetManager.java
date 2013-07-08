@@ -51,4 +51,8 @@ public class TimerWidgetManager {
             secondTickHandler.secondTicked(second);
         }
     }
+
+    public int getGameTimeForSystemClockTime(long systemClockAtStartOfTiming) {
+        return timer.gameTimeForSystemClockTime(systemClockAtStartOfTiming);
+    }
 }

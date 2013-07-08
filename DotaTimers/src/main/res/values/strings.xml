@@ -4,5 +4,7 @@
     <string name="app_name">DotaTimers</string>
     <string name="title_activity_hero_selection">Hero Selection</string>
     <string name="action_settings">Settings</string>
+    <string name="title_activity_timer_config">Timer Config</string>
+    <string name="hello_world">Hello world!</string>
 
 </resources>

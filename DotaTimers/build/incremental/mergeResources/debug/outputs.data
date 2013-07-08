@@ -2,6 +2,7 @@
 # format is <lastModified> <length> <SHA-1> <path>
 # Encoding is UTF-8
 1373164090000 2817 7fb6da2823e5a6b25445575dae097b7d6227607c /Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/build/res/all/debug/values/values.xml
+1373240674000 1026 2e6e2207b9be46f54a8d6c61f1b56c6499af9ef0 /Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/build/res/all/debug/layout/hero_selection_row.xml
 1373061423000 22005 98e4cfcca9dd073de21f5e8e21f1f8f27585359b /Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/build/res/all/debug/drawable/dark_seer.png
 1373061423000 19652 7808f0843e043d8a650546535fefa2ad35202c26 /Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/build/res/all/debug/drawable/life_stealer.png
 1373061423000 7783 03172612ec7d8d2cc6295a185410c3e6501771aa /Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/build/res/all/debug/drawable-hdpi/ic_launcher.png
@@ -60,7 +61,7 @@
 1373061423000 22980 94f78bcf06073511979f1dec5723cf2318f65e3b /Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/build/res/all/debug/drawable/alchemist.png
 1373061423000 14149 b542da6b0e05b61cc928a47275e2f71a55bdb16a /Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/build/res/all/debug/drawable/neutrals.png
 1373061423000 270 fc4be89d8ffc61fba86cc4277c1ca8824b1ba48e /Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/build/res/all/debug/drawable-xhdpi/card_background.9.png
-1373164089000 1295 3a55d6721f261fcb06afd10682984011da8d7b57 /Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/build/res/all/debug/layout/activity_hero_selection.xml
+1373240632000 1308 a44f08d1c1973bd445f3e682c3b448a0fc213d43 /Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/build/res/all/debug/layout/activity_hero_selection.xml
 1373061423000 19917 65621344265ed30b7a1f8c512f3f2c7893aa90eb /Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/build/res/all/debug/drawable/enigma.png
 1373061423000 16803 c5f51ef6673c7c45256ad0136ba7269f56833593 /Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/build/res/all/debug/drawable/sven.png
 1373061423000 14294 24341813b28b8e78aea379cf0003ffff5a61de0d /Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/build/res/all/debug/drawable/tower_dire.png

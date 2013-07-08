@@ -164,8 +164,8 @@ containing a value of this type.
         public static final int zeus=0x7f02006c;
     }
     public static final class id {
-        public static final int action_settings=0x7f09000d;
-        public static final int countdownText=0x7f09000c;
+        public static final int action_settings=0x7f09000f;
+        public static final int countdownText=0x7f09000e;
         public static final int fortificationButton=0x7f090002;
         public static final int gameTimer=0x7f090003;
         public static final int hero1=0x7f090006;
@@ -174,15 +174,18 @@ containing a value of this type.
         public static final int hero4=0x7f090009;
         public static final int hero5=0x7f09000a;
         public static final int heroFilter=0x7f090000;
+        public static final int heroIcon=0x7f09000b;
         public static final int heroList=0x7f090001;
+        public static final int heroName=0x7f09000c;
         public static final int roshButton=0x7f090004;
-        public static final int timerImage=0x7f09000b;
+        public static final int timerImage=0x7f09000d;
         public static final int view=0x7f090005;
     }
     public static final class layout {
         public static final int activity_hero_selection=0x7f030000;
         public static final int activity_main_screen=0x7f030001;
-        public static final int timer_view=0x7f030002;
+        public static final int hero_selection_row=0x7f030002;
+        public static final int timer_view=0x7f030003;
     }
     public static final class menu {
         public static final int hero_selection=0x7f080000;

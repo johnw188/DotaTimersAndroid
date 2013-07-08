@@ -5,7 +5,7 @@
     android:versionName="1.0" >
 
     <uses-sdk
-        android:minSdkVersion="10"
+        android:minSdkVersion="11"
         android:targetSdkVersion="16" />
 
     <application
@@ -26,9 +26,9 @@
         </activity>
         <activity
             android:name="com.johnwelsh.dotatimers.heroselection.HeroSelectionActivity"
-            android:theme="@android:style/Theme.Dialog"
             android:excludeFromRecents="true"
-            android:label="@string/title_activity_hero_selection" >
+            android:label="@string/title_activity_hero_selection"
+            android:theme="@android:style/Theme.Holo.Light.Dialog" >
         </activity>
     </application>
 

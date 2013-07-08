@@ -631,9 +631,9 @@
                 </color>
                 <color name="white" >#FFFFFF
                 </color>
-                <color name="black" >#000000
-                </color>
                 <color name="countdown_text" >#CCCCCC
+                </color>
+                <color name="black" >#000000
                 </color>
                 <color name="teal" >#008080
                 </color>
@@ -672,27 +672,6 @@
                 <style name="image_button" >
                 </style>
 
-                <style name="game_timer" >
-                    <item name="android:background">
-@drawable/card_background
-                    </item>
-                    <item name="android:layout_width">
-wrap_content
-                    </item>
-                    <item name="android:layout_height">
-wrap_content
-                    </item>
-                    <item name="android:textAppearance">
-?android:attr/textAppearanceLarge
-                    </item>
-                    <item name="android:gravity">
-center
-                    </item>
-                    <item name="android:layout_weight">
-0.99
-                    </item>
-                </style>
-
                 <style name="hero_portrait_buttons" >
                     <item name="android:layout_width">
 0dp
@@ -714,6 +693,27 @@ center_horizontal|bottom
                     </item>
                     <item name="android:background">
 @null
+                    </item>
+                </style>
+
+                <style name="game_timer" >
+                    <item name="android:background">
+@drawable/card_background
+                    </item>
+                    <item name="android:layout_width">
+wrap_content
+                    </item>
+                    <item name="android:layout_height">
+wrap_content
+                    </item>
+                    <item name="android:textAppearance">
+?android:attr/textAppearanceLarge
+                    </item>
+                    <item name="android:gravity">
+center
+                    </item>
+                    <item name="android:layout_weight">
+0.99
                     </item>
                 </style>
 
@@ -801,6 +801,11 @@ true
                 path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/menu/hero_selection.xml"
                 qualifiers=""
                 type="menu" />
+            <file
+                name="hero_selection_row"
+                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/layout/hero_selection_row.xml"
+                qualifiers=""
+                type="layout" />
         </source>
         <source path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/build/res/rs/debug" />
     </dataSet>

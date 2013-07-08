@@ -1,10 +1,8 @@
 package com.johnwelsh.dotatimers.views.timerwidgets;
 
 import android.content.Context;
-import android.content.Intent;
 import android.util.AttributeSet;
 
-import com.johnwelsh.dotatimers.heroselection.HeroSelectionActivity;
 import com.johnwelsh.dotatimers.models.HeroModel;
 
 /**
@@ -12,6 +10,15 @@ import com.johnwelsh.dotatimers.models.HeroModel;
  */
 public class HeroTimer extends TimerView {
     private HeroModel model;
+    private HeroTimerParent heroTimerParent;
+
+    public HeroTimerParent getHeroTimerParent() {
+        return heroTimerParent;
+    }
+
+    public void setHeroTimerParent(HeroTimerParent heroTimerParent) {
+        this.heroTimerParent = heroTimerParent;
+    }
 
     public HeroTimer(Context context, AttributeSet attrs) {
         super(context, attrs);
@@ -32,14 +39,18 @@ public class HeroTimer extends TimerView {
     }
 
     private void displayHeroSelectorAlertDialog() {
-        Intent intent = new Intent(getContext(), HeroSelectionActivity.class);
-        Context context = getContext();
-        if (context != null) {
-            context.startActivity(intent);
+        if (heroTimerParent != null) {
+            heroTimerParent.timerNeedsHeroSelection(this);
         }
     }
 
     private void displayTimerConfig() {
+        int gameTimeAtStartOfTiming = manager.getGameTimeForSystemClockTime(System.currentTimeMillis());
 
+    }
+
+    public void setHeroModel(HeroModel model) {
+        this.model = model;
+        setBaseImageFromID(model.getIconID());
     }
 }
