@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import com.johnwelsh.dotatimers.heroselection.HeroSelectionActivity;
@@ -14,7 +15,6 @@ import com.johnwelsh.dotatimers.timerconfig.TimerConfig;
 import com.johnwelsh.dotatimers.views.timerwidgets.HeroTimer;
 import com.johnwelsh.dotatimers.views.timerwidgets.HeroTimerParent;
 import com.johnwelsh.dotatimers.views.timerwidgets.RoshTimer;
-import com.johnwelsh.dotatimers.views.timerwidgets.TimerView;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -26,6 +26,7 @@ public class MainScreenActivity extends Activity implements HeroTimerParent {
     SimpleDateFormat formatter = new SimpleDateFormat("m':'ss");
 
     private HeroTimer[] timers;
+    private RelativeLayout timerConfigArea;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -45,27 +46,19 @@ public class MainScreenActivity extends Activity implements HeroTimerParent {
                 (HeroTimer) findViewById(R.id.hero5)
         };
 
-        for (HeroTimer timer : timers) {
-            timer.setHeroTimerParent(this);
-        }
-        text = (TextView) findViewById(R.id.gameTimer);
-        HeroModel alchModel = new HeroModel("alchemist", "Alchemist", 20, 30, 40);
-        final TimerView hero1 = (TimerView) findViewById(R.id.hero1);
-        hero1.setBaseImageFromID(alchModel.getIconID());
-        hero1.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                hero1.startTiming(70);
-            }
-        });
-
+        timerConfigArea = (RelativeLayout) findViewById(R.id.timerConfigArea);
         final TimerWidgetManager manager = new TimerWidgetManager();
+
+        text = (TextView) findViewById(R.id.gameTimer);
 
         RoshTimer rosh = (RoshTimer) findViewById(R.id.roshButton);
 
         manager.addTimerWidget(rosh);
 
-        manager.addTimerWidget(hero1);
+        for (HeroTimer timer : timers) {
+            timer.setHeroTimerParent(this);
+            manager.addTimerWidget(timer);
+        }
 
         manager.addSecondTickHandler(new SecondTickHandler() {
             @Override
@@ -93,9 +86,39 @@ public class MainScreenActivity extends Activity implements HeroTimerParent {
     }
 
     @Override
-    public void timerNeedsConfig(int gameTimeWhenTimerStarted) {
-        TimerConfig config = new TimerConfig(this, null);
-        
+    public void timerNeedsConfig(int gameTimeWhenTimerStarted, HeroModel model, final HeroTimer timer) {
+        showTimerConfigArea();
+        final TimerConfig config = new TimerConfig(this, null);
+        config.setHeroModel(model);
+        config.setInitialGameTime(gameTimeWhenTimerStarted);
+        config.setCallback(new TimerConfig.TimerConfigCallback() {
+            @Override
+            public void abilityUsed(int gameTimeWhenAbilityWasUsed, int durationOfCooldown) {
+                timerConfigArea.removeView(config);
+                if (timerConfigArea.getChildCount() == 0) {
+                    hideTimerConfigArea();
+                }
+                timer.startTiming(durationOfCooldown, gameTimeWhenAbilityWasUsed);
+            }
+
+            @Override
+            public void buybackUsed() {
+
+            }
+        });
+        timerConfigArea.addView(config);
+    }
+
+    private void showTimerConfigArea() {
+        findViewById(R.id.headerSectionLayout).setVisibility(View.GONE);
+        findViewById(R.id.timeline).setVisibility(View.GONE);
+        findViewById(R.id.timerConfigArea).setVisibility(View.VISIBLE);
+    }
+
+    private void hideTimerConfigArea() {
+        findViewById(R.id.headerSectionLayout).setVisibility(View.VISIBLE);
+        findViewById(R.id.timeline).setVisibility(View.VISIBLE);
+        findViewById(R.id.timerConfigArea).setVisibility(View.GONE);
     }
 
     @Override

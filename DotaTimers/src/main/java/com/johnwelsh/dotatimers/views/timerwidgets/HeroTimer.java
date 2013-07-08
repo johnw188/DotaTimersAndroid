@@ -46,7 +46,7 @@ public class HeroTimer extends TimerView {
 
     private void displayTimerConfig() {
         int gameTimeAtStartOfTiming = manager.getGameTimeForSystemClockTime(System.currentTimeMillis());
-
+        heroTimerParent.timerNeedsConfig(gameTimeAtStartOfTiming, model, this);
     }
 
     public void setHeroModel(HeroModel model) {

@@ -623,11 +623,11 @@
                 </color>
                 <color name="yellow" >#FFFF00
                 </color>
+                <color name="olive" >#808000
+                </color>
                 <color name="maroon" >#800000
                 </color>
                 <color name="fuchsia" >#FF00FF
-                </color>
-                <color name="olive" >#808000
                 </color>
                 <color name="white" >#FFFFFF
                 </color>
@@ -652,6 +652,10 @@
                 <string name="title_activity_hero_selection" >Hero Selection
                 </string>
                 <string name="dummy_button" >Dummy Button
+                </string>
+                <string name="hello_world" >Hello world!
+                </string>
+                <string name="title_activity_timer_config" >Timer Config
                 </string>
             </file>
             <file
@@ -806,6 +810,16 @@ true
                 path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/layout/hero_selection_row.xml"
                 qualifiers=""
                 type="layout" />
+            <file
+                name="timer_config"
+                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/layout/timer_config.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="timer_config"
+                path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/src/main/res/menu/timer_config.xml"
+                qualifiers=""
+                type="menu" />
         </source>
         <source path="/Users/john.welsh/AndroidStudioProjects/DotaTimersProject/DotaTimers/build/res/rs/debug" />
     </dataSet>
