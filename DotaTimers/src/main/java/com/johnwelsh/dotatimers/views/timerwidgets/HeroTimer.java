@@ -25,6 +25,14 @@ public class HeroTimer extends TimerView {
     }
 
     @Override
+    public void startTiming(int secondsToTime, int initialGameTime) {
+        super.startTiming(secondsToTime, initialGameTime);
+        model.setCurrentlyTiming(true);
+        model.setSecondsToTime(secondsToTime);
+        model.setGameTimeWhenTimingStarted(initialGameTime);
+    }
+
+    @Override
     protected String stringFromSeconds(int seconds) {
         return Integer.toString(seconds);
     }
@@ -36,6 +44,12 @@ public class HeroTimer extends TimerView {
         } else {
             displayTimerConfig();
         }
+    }
+
+    @Override
+    protected void onTimerFinished() {
+        super.onTimerFinished();
+        model.setCurrentlyTiming(false);
     }
 
     private void displayHeroSelectorAlertDialog() {
@@ -52,5 +66,12 @@ public class HeroTimer extends TimerView {
     public void setHeroModel(HeroModel model) {
         this.model = model;
         setBaseImageFromID(model.getIconID());
+        if (model.isCurrentlyTiming()) {
+            startTiming(model.getSecondsToTime(), model.getGameTimeWhenTimingStarted());
+        }
+    }
+
+    public HeroModel getModel() {
+        return model;
     }
 }

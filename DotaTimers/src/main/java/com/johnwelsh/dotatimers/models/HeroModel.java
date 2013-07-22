@@ -21,6 +21,9 @@ public class HeroModel implements Parcelable {
         cooldown2 = parcel.readInt();
         cooldown3 = parcel.readInt();
         iconID = parcel.readInt();
+        secondsToTime = parcel.readInt();
+        gameTimeWhenTimingStarted = parcel.readInt();
+        currentlyTiming = parcel.readByte() == 1;
     }
 
     public HeroModel() {
@@ -80,6 +83,35 @@ public class HeroModel implements Parcelable {
         this.cooldown3 = cooldown3;
     }
 
+    // Timer persistence stuff
+    private int secondsToTime;
+    private int gameTimeWhenTimingStarted;
+    private boolean currentlyTiming;
+
+    public int getSecondsToTime() {
+        return secondsToTime;
+    }
+
+    public void setSecondsToTime(int secondsToTime) {
+        this.secondsToTime = secondsToTime;
+    }
+
+    public int getGameTimeWhenTimingStarted() {
+        return gameTimeWhenTimingStarted;
+    }
+
+    public void setGameTimeWhenTimingStarted(int gameTimeWhenTimingStarted) {
+        this.gameTimeWhenTimingStarted = gameTimeWhenTimingStarted;
+    }
+
+    public boolean isCurrentlyTiming() {
+        return currentlyTiming;
+    }
+
+    public void setCurrentlyTiming(boolean currentlyTiming) {
+        this.currentlyTiming = currentlyTiming;
+    }
+
     @Override
     public int describeContents() {
         return 0;
@@ -93,6 +125,9 @@ public class HeroModel implements Parcelable {
         parcel.writeInt(cooldown2);
         parcel.writeInt(cooldown3);
         parcel.writeInt(iconID);
+        parcel.writeInt(secondsToTime);
+        parcel.writeInt(gameTimeWhenTimingStarted);
+        parcel.writeByte((byte) (currentlyTiming ? 1 : 0));
     }
 
     public static final Creator<HeroModel> CREATOR = new Creator<HeroModel>() {

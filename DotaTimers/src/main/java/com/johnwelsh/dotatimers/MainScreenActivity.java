@@ -9,35 +9,31 @@ import android.widget.TextView;
 
 import com.johnwelsh.dotatimers.heroselection.HeroSelectionActivity;
 import com.johnwelsh.dotatimers.models.HeroModel;
+import com.johnwelsh.dotatimers.timer.GameTimer;
 import com.johnwelsh.dotatimers.timer.SecondTickHandler;
+import com.johnwelsh.dotatimers.timer.TimeFormatter;
 import com.johnwelsh.dotatimers.timer.TimerWidgetManager;
 import com.johnwelsh.dotatimers.timerconfig.TimerConfig;
 import com.johnwelsh.dotatimers.views.timerwidgets.HeroTimer;
 import com.johnwelsh.dotatimers.views.timerwidgets.HeroTimerParent;
 import com.johnwelsh.dotatimers.views.timerwidgets.RoshTimer;
 
-import java.text.SimpleDateFormat;
-import java.util.Date;
+import java.util.Stack;
 
 public class MainScreenActivity extends Activity implements HeroTimerParent {
     static final int SELECTED_HERO_RESULT = 0;
 
     private TextView text;
-    SimpleDateFormat formatter = new SimpleDateFormat("m':'ss");
 
     private HeroTimer[] timers;
     private RelativeLayout timerConfigArea;
+    private TimerWidgetManager manager;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
         setContentView(R.layout.activity_main_screen);
-    }
 
-    @Override
-    protected void onPostCreate(Bundle savedInstanceState) {
-        super.onPostCreate(savedInstanceState);
         timers = new HeroTimer[]{
                 (HeroTimer) findViewById(R.id.hero1),
                 (HeroTimer) findViewById(R.id.hero2),
@@ -47,7 +43,15 @@ public class MainScreenActivity extends Activity implements HeroTimerParent {
         };
 
         timerConfigArea = (RelativeLayout) findViewById(R.id.timerConfigArea);
-        final TimerWidgetManager manager = new TimerWidgetManager();
+        manager = new TimerWidgetManager();
+        if (savedInstanceState != null) {
+            manager.setGameTimer(savedInstanceState.<GameTimer>getParcelable(GAME_TIMER));
+            timers[0].setHeroModel(savedInstanceState.<HeroModel>getParcelable(HERO1));
+            timers[1].setHeroModel(savedInstanceState.<HeroModel>getParcelable(HERO2));
+            timers[2].setHeroModel(savedInstanceState.<HeroModel>getParcelable(HERO3));
+            timers[3].setHeroModel(savedInstanceState.<HeroModel>getParcelable(HERO4));
+            timers[4].setHeroModel(savedInstanceState.<HeroModel>getParcelable(HERO5));
+        }
 
         text = (TextView) findViewById(R.id.gameTimer);
 
@@ -63,7 +67,7 @@ public class MainScreenActivity extends Activity implements HeroTimerParent {
         manager.addSecondTickHandler(new SecondTickHandler() {
             @Override
             public void secondTicked(int numberOfSeconds) {
-                text.setText(formatter.format(new Date(numberOfSeconds * 1000)));
+                text.setText(TimeFormatter.formatGameTime(numberOfSeconds));
             }
         });
 
@@ -76,6 +80,11 @@ public class MainScreenActivity extends Activity implements HeroTimerParent {
         });
     }
 
+    @Override
+    protected void onPostCreate(Bundle savedInstanceState) {
+        super.onPostCreate(savedInstanceState);
+    }
+
     private HeroTimer timerBeingSelected;
 
     @Override
@@ -85,19 +94,21 @@ public class MainScreenActivity extends Activity implements HeroTimerParent {
         startActivityForResult(intent, SELECTED_HERO_RESULT);
     }
 
+    private Stack<TimerConfig> timerConfigStack = new Stack<TimerConfig>();
+
     @Override
     public void timerNeedsConfig(int gameTimeWhenTimerStarted, HeroModel model, final HeroTimer timer) {
-        showTimerConfigArea();
+        if (timerConfigStack.size() == 0) {
+            showTimerConfigArea();
+        }
+
         final TimerConfig config = new TimerConfig(this, null);
         config.setHeroModel(model);
         config.setInitialGameTime(gameTimeWhenTimerStarted);
         config.setCallback(new TimerConfig.TimerConfigCallback() {
             @Override
             public void abilityUsed(int gameTimeWhenAbilityWasUsed, int durationOfCooldown) {
-                timerConfigArea.removeView(config);
-                if (timerConfigArea.getChildCount() == 0) {
-                    hideTimerConfigArea();
-                }
+                popTimerConfig();
                 timer.startTiming(durationOfCooldown, gameTimeWhenAbilityWasUsed);
             }
 
@@ -107,6 +118,24 @@ public class MainScreenActivity extends Activity implements HeroTimerParent {
             }
         });
         timerConfigArea.addView(config);
+        timerConfigStack.push(config);
+    }
+
+    private void popTimerConfig() {
+        TimerConfig config = timerConfigStack.pop();
+        timerConfigArea.removeView(config);
+        if (timerConfigStack.size() == 0) {
+            hideTimerConfigArea();
+        }
+    }
+
+    @Override
+    public void onBackPressed() {
+        if (timerConfigStack.size() > 0) {
+            popTimerConfig();
+        } else {
+            super.onBackPressed();
+        }
     }
 
     private void showTimerConfigArea() {
@@ -129,5 +158,23 @@ public class MainScreenActivity extends Activity implements HeroTimerParent {
                 timerBeingSelected.setHeroModel(model);
             }
         }
+    }
+
+    private static final String GAME_TIMER = "gameTimer";
+    private static final String HERO1 = "hero1";
+    private static final String HERO2 = "hero2";
+    private static final String HERO3 = "hero3";
+    private static final String HERO4 = "hero4";
+    private static final String HERO5 = "hero5";
+
+    @Override
+    protected void onSaveInstanceState(Bundle outState) {
+        super.onSaveInstanceState(outState);
+        outState.putParcelable(GAME_TIMER, manager.getTimer());
+        outState.putParcelable(HERO1, timers[0].getModel());
+        outState.putParcelable(HERO2, timers[1].getModel());
+        outState.putParcelable(HERO3, timers[2].getModel());
+        outState.putParcelable(HERO4, timers[3].getModel());
+        outState.putParcelable(HERO5, timers[4].getModel());
     }
 }

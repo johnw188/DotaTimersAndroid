@@ -19,6 +19,18 @@ public class RoshTimer extends TimerView {
         startRoshTimer();
     }
 
+    private int gameTimeWhenRoshWasKilled;
+
+    public void startTimingRosh(int gameTimeWhenRoshWasKilled) {
+        this.gameTimeWhenRoshWasKilled = gameTimeWhenRoshWasKilled;
+    }
+
+    @Override
+    protected void onTimerUpdated(int gameTimeInSeconds) {
+        super.onTimerUpdated(gameTimeInSeconds);
+
+    }
+
     private boolean timingAegis = false;
     private void startRoshTimer() {
         timingAegis = true;

@@ -34,6 +34,7 @@ public abstract class TimerView extends RelativeLayout implements DotaTimerWidge
 
     @Override
     public void updateTime(int gameTimeInSeconds) {
+        onTimerUpdated(gameTimeInSeconds);
         if (currentlyTiming) {
             int newTimerValue = secondsToTime - (gameTimeInSeconds - gameTimeWhenTimingStarted);
             if (newTimerValue <= 0) {
@@ -55,7 +56,7 @@ public abstract class TimerView extends RelativeLayout implements DotaTimerWidge
 
     public void startTiming(int secondsToTime, int initialGameTime) {
         currentlyTiming = true;
-        onTimerStarted();
+        onTimerStarted(secondsToTime, initialGameTime);
         gameTimeWhenTimingStarted = initialGameTime;
         this.secondsToTime = secondsToTime;
         setTimerTextToSeconds(secondsToTime - (manager.getCurrentGameTime() - initialGameTime));
@@ -106,7 +107,11 @@ public abstract class TimerView extends RelativeLayout implements DotaTimerWidge
 
     }
 
-    protected void onTimerStarted() {
+    protected void onTimerUpdated(int gameTimeInSeconds) {
+
+    }
+
+    protected void onTimerStarted(int secondsToTime, int initialGameTime) {
         showTimerText();
     }
 

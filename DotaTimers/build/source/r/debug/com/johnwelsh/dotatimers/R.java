@@ -164,9 +164,9 @@ containing a value of this type.
         public static final int zeus=0x7f02006c;
     }
     public static final class id {
-        public static final int action_settings=0x7f090019;
-        public static final int buyback=0x7f090012;
-        public static final int countdownText=0x7f090018;
+        public static final int action_settings=0x7f090017;
+        public static final int buyback=0x7f090010;
+        public static final int countdownText=0x7f090016;
         public static final int fortificationButton=0x7f090003;
         public static final int gameTimer=0x7f090004;
         public static final int headerSectionLayout=0x7f090002;
@@ -180,16 +180,14 @@ containing a value of this type.
         public static final int heroList=0x7f090001;
         public static final int heroName=0x7f09000e;
         public static final int roshButton=0x7f090005;
-        public static final int seekBar=0x7f090011;
         public static final int textView=0x7f09000f;
-        public static final int textView2=0x7f090010;
-        public static final int textView3=0x7f090013;
+        public static final int textView3=0x7f090011;
         public static final int timeline=0x7f090006;
         public static final int timerConfigArea=0x7f090007;
-        public static final int timerImage=0x7f090017;
-        public static final int ult1=0x7f090014;
-        public static final int ult2=0x7f090015;
-        public static final int ult3=0x7f090016;
+        public static final int timerImage=0x7f090015;
+        public static final int ult1=0x7f090012;
+        public static final int ult2=0x7f090013;
+        public static final int ult3=0x7f090014;
     }
     public static final class layout {
         public static final int activity_hero_selection=0x7f030000;

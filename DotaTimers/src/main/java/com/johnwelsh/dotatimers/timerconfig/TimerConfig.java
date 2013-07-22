@@ -4,10 +4,13 @@ import android.content.Context;
 import android.util.AttributeSet;
 import android.view.LayoutInflater;
 import android.view.View;
+import android.widget.ImageView;
 import android.widget.LinearLayout;
+import android.widget.TextView;
 
 import com.johnwelsh.dotatimers.R;
 import com.johnwelsh.dotatimers.models.HeroModel;
+import com.johnwelsh.dotatimers.timer.TimeFormatter;
 
 public class TimerConfig extends LinearLayout {
     public interface TimerConfigCallback {
@@ -55,13 +58,17 @@ public class TimerConfig extends LinearLayout {
 
     public void setInitialGameTime(int gameTime) {
         this.gameTimeWhenUsed = gameTime;
+        TextView timerText = (TextView) findViewById(R.id.gameTimer);
+        timerText.setText(TimeFormatter.formatGameTime(gameTime));
     }
+
     public void setCallback(TimerConfigCallback callback) {
         this.callback = callback;
     }
 
     public void setHeroModel(HeroModel model) {
         this.heroModel = model;
+        ((ImageView)findViewById(R.id.heroIcon)).setImageResource(model.getIconID());
     }
 
 }

@@ -18,6 +18,20 @@ public class TimerWidgetManager {
         return currentGameTime;
     }
 
+    public void setGameTimer(GameTimer timer) {
+        this.timer = timer;
+        this.timer.setSecondTickHandler(new SecondTickHandler() {
+            @Override
+            public void secondTicked(int numberOfSeconds) {
+                handleSecondTick(numberOfSeconds);
+            }
+        });
+    }
+
+    public GameTimer getTimer() {
+        return this.timer;
+    }
+
     GameTimer timer = new GameTimer(new SecondTickHandler() {
         @Override
         public void secondTicked(int numberOfSeconds) {
